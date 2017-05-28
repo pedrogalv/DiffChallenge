@@ -27,6 +27,11 @@ And the running application will be ready to accept and answer the API endpoints
 
 The preconfigured localhost port is 8080. If you need, you can change it in `application.properties`.
 
+You can also check the storage data in database, accessing the url:
+```url
+localhost:8080/h2
+```
+
 ## Improvement suggestions
 - [ ] Use Swagger for API documentation. Make easier to client understand the endpoints
 - [ ] Use MongoDB. Able to save requests with minimum conversions, better scalability
